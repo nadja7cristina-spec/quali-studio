@@ -1,0 +1,408 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Pilates, fisioterapia, quiropraxia, funcional e yoga em Barueri. R. da Prata, 942. Agende pelo WhatsApp (11) 98025-2058."><title>Quali Studio Barueri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<style>
+body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{
+--bg:#f7f8f4; --surface:#ffffff; --ink:#1f2a1a; --muted:#5d6656;
+--leaf:#6f9a2a; --leaf-deep:#4d6e1a; --leaf-soft:#e7efd8;
+--wood:#9a6a43; --wood-soft:#efe3d6; --line:#dfe3d6;
+--display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+--body:"Figtree", "Segoe UI", system-ui, sans-serif;
+--radius:18px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+--bg:#12160f; --surface:#1a2016; --ink:#eef2e6; --muted:#a4ad98;
+--leaf:#9cc455; --leaf-deep:#b9d87e; --leaf-soft:#25301b;
+--wood:#d0a07a; --wood-soft:#2b231c; --line:#2d3527; color-scheme:dark}}
+:root[data-theme="dark"]{
+--bg:#12160f; --surface:#1a2016; --ink:#eef2e6; --muted:#a4ad98;
+--leaf:#9cc455; --leaf-deep:#b9d87e; --leaf-soft:#25301b;
+--wood:#d0a07a; --wood-soft:#2b231c; --line:#2d3527; color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--leaf);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(20px, env(safe-area-inset-left,0px));padding-right:max(20px, env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);line-height:1.08;text-wrap:balance;margin:0}
+h2{font-size:clamp(30px,4.2vw,46px);font-weight:700;letter-spacing:-.02em}
+h3{font-size:22px;font-weight:700}
+p{margin:0}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--leaf-deep)}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;text-decoration:none;transition:transform .15s, background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-main{background:var(--leaf);color:#fff}
+:root[data-theme="dark"] .btn-main{color:#12160f}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .btn-main{color:#12160f}}
+.btn-ghost{border:1.5px solid var(--line);background:var(--surface)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand-mark{width:38px;height:38px;border-radius:50%;background:var(--leaf);display:grid;place-items:center;color:#fff;font-family:var(--display);font-weight:800;font-size:20px}
+.brand b{font-family:var(--display);font-size:20px;letter-spacing:-.01em}
+.brand small{display:block;font-size:12px;color:var(--muted);line-height:1}
+.links{display:flex;gap:26px;font-weight:500;font-size:15px}
+.links a{text-decoration:none;color:var(--muted)}
+.links a:hover{color:var(--ink)}
+.nav .btn{padding:10px 18px;font-size:15px}
+@media (max-width:860px){.links{display:none}}
+.hero{padding-block:64px 72px}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(42px,6.4vw,80px);font-weight:800;letter-spacing:-.035em;margin-top:16px}
+.hero h1 em{font-style:normal;color:var(--leaf)}
+.hero .lead{font-size:20px;color:var(--muted);max-width:34ch;margin-top:22px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.rating{display:flex;align-items:center;gap:12px;margin-top:34px;font-size:15px;color:var(--muted)}
+.stars{color:#e0a82e;letter-spacing:2px;font-size:18px}
+.rating strong{color:var(--ink);font-family:var(--display);font-size:22px}
+.window{position:relative;aspect-ratio:4/5;max-width:100%;border-radius:var(--radius);overflow:hidden;background:var(--wood-soft);box-shadow:0 24px 60px -24px rgba(31,42,26,.45)}
+.window img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.06);transition:opacity .8s ease,transform 6s ease}
+.window img.on{opacity:1;transform:scale(1)}
+.window::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.55));pointer-events:none}
+.window .cap{position:absolute;left:20px;right:20px;bottom:20px;z-index:2;color:#fff;display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.window .cap b{display:block;font-family:var(--display);font-size:22px}
+.window .cap span{font-size:14px;opacity:.85}
+.dots{display:flex;gap:6px;flex-shrink:0}
+.dots button{width:28px;height:4px;border:0;border-radius:4px;background:rgba(255,255,255,.4);cursor:pointer;padding:0;position:relative;overflow:hidden}
+.dots button.on{background:rgba(255,255,255,.4)}
+.dots button.on::after{content:"";position:absolute;inset:0;background:#fff;transform-origin:left;animation:fill 5s linear forwards}
+@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.window .arrow{position:absolute;top:50%;z-index:2;width:42px;height:42px;margin-top:-21px;border-radius:50%;border:0;background:rgba(255,255,255,.85);color:#1f2a1a;font-size:20px;cursor:pointer;opacity:0;transition:opacity .2s}
+.window:hover .arrow,.window .arrow:focus-visible{opacity:1}
+.window .arrow.p{left:14px}.window .arrow.n{right:14px}
+.badge{position:absolute;top:18px;left:18px;z-index:2;background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;font-size:13px;font-weight:600;display:flex;gap:8px;align-items:center}
+.badge .stars{font-size:13px}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr;gap:40px}.window{aspect-ratio:1/1}.window .arrow{opacity:1}}
+.gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:240px 240px;gap:14px}
+.gallery button{position:relative;border:0;padding:0;border-radius:var(--radius);overflow:hidden;cursor:zoom-in;background:var(--wood-soft)}
+.gallery button:first-child{grid-row:span 2}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gallery button:hover img{transform:scale(1.05)}
+.gallery button span{position:absolute;left:12px;bottom:12px;background:var(--surface);color:var(--ink);font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px}
+@media (max-width:760px){.gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 160px;grid-auto-rows:160px}.gallery button:first-child{grid-column:span 2;grid-row:auto}}
+.lightbox{position:fixed;inset:0;z-index:20;background:rgba(10,14,8,.92);display:grid;place-items:center;padding:calc(24px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(24px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.lightbox figure{margin:0;display:grid;gap:12px;justify-items:center;max-width:min(900px,100%)}
+.lightbox img{max-height:78vh;border-radius:12px}
+.lightbox figcaption{color:#eef2e6;font-size:15px}
+.lightbox .x{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:calc(16px + env(safe-area-inset-right,0px));width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#1f2a1a;font-size:22px;cursor:pointer}
+.reveal{transition:transform .6s ease, opacity .6s ease}
+.js .reveal.pre{transform:translateY(18px);opacity:.35}
+.svc{transition:transform .25s ease, border-color .25s ease, box-shadow .25s ease}
+.svc:hover{transform:translateY(-4px);border-color:var(--leaf);box-shadow:0 18px 40px -24px rgba(31,42,26,.4)}
+.svc:hover .ico{background:var(--leaf);color:#fff}
+.svc .ico{transition:background .25s,color .25s}
+.strip{background:var(--leaf-deep);color:var(--bg)}
+:root[data-theme="dark"] .strip{background:var(--leaf-soft);color:var(--ink)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .strip{background:var(--leaf-soft);color:var(--ink)}}
+.strip .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px 32px;padding-block:22px;font-weight:500}
+.strip span{display:flex;align-items:center;gap:10px}
+.strip span::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.6}
+section{padding-block:96px}
+.head{display:grid;gap:14px;max-width:640px;margin-bottom:48px}
+.head p{color:var(--muted);font-size:18px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.svc.mini{padding:24px 30px;flex-direction:row;align-items:center;gap:18px}
+.services.extra{grid-template-columns:repeat(2,1fr);margin-top:20px}
+@media (max-width:900px){.services.extra{grid-template-columns:1fr}}
+.apps{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:28px;color:var(--muted);font-size:15px}
+.apps b{font-size:14px;padding:6px 14px;border-radius:999px;background:var(--leaf-soft);color:var(--leaf-deep)}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;gap:14px}
+.svc .ico{width:52px;height:52px;border-radius:14px;background:var(--leaf-soft);display:grid;place-items:center;color:var(--leaf-deep)}
+.svc p{color:var(--muted)}
+.svc ul{margin:4px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.svc li{font-size:13px;font-weight:600;padding:5px 11px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
+@media (max-width:900px){.services{grid-template-columns:1fr}}
+.equip-band{background:var(--wood-soft)}
+.equip{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.eq{border-top:2px solid var(--wood);padding-top:18px;display:grid;gap:8px}
+.eq h3{font-size:24px}
+.eq span{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--wood)}
+.eq p{color:var(--muted);font-size:16px}
+@media (max-width:900px){.equip{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.equip{grid-template-columns:1fr}}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.about p{color:var(--muted);font-size:18px;max-width:52ch}
+.about p+p{margin-top:16px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.fact b{display:block;font-family:var(--display);font-size:34px;letter-spacing:-.02em;color:var(--leaf-deep)}
+.fact span{color:var(--muted);font-size:15px}
+@media (max-width:860px){.about{grid-template-columns:1fr}}
+.visit{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.hours{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px;min-width:0}
+.hours-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.status{font-size:14px;font-weight:600;padding:6px 12px;border-radius:999px;background:var(--leaf-soft);color:var(--leaf-deep)}
+.status.closed{background:var(--wood-soft);color:var(--wood)}
+.day{display:grid;grid-template-columns:110px 1fr 104px;align-items:center;gap:14px;padding-block:9px;border-bottom:1px solid var(--line);font-size:15px}
+.day:last-child{border-bottom:0}
+.day.today{font-weight:600}
+.day .time{text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.day.today .time{color:var(--ink)}
+.track{position:relative;height:8px;border-radius:6px;background:var(--bg)}
+.track i{position:absolute;top:0;bottom:0;border-radius:6px;background:var(--leaf)}
+.scale{display:grid;grid-template-columns:110px 1fr 104px;gap:14px;font-size:12px;color:var(--muted);margin-top:8px}
+.scale div{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums}
+@media (max-width:520px){.day,.scale{grid-template-columns:78px 1fr 92px;gap:10px}}
+.contact{background:var(--leaf-deep);color:#fff;border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;gap:22px}
+:root[data-theme="dark"] .contact{background:var(--leaf-soft);color:var(--ink)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .contact{background:var(--leaf-soft);color:var(--ink)}}
+.contact .row{display:grid;gap:4px}
+.contact .row small{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.7;font-weight:600}
+.contact .row span{font-size:18px}
+.contact .phone{font-family:var(--display);font-size:30px;font-weight:700;letter-spacing:-.01em}
+.contact .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto}
+.contact .btn-light{background:#fff;color:var(--leaf-deep)}
+.contact .btn-line{border:1.5px solid currentColor;color:inherit}
+@media (max-width:860px){.visit{grid-template-columns:1fr}}
+.final{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:56px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px}
+.final h2{max-width:18ch}
+@media (max-width:560px){.final{padding:32px 24px}}
+footer{border-top:1px solid var(--line);padding-block:32px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.wa-float{position:fixed;right:calc(20px + env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:8;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+</style></head><body>
+<header>
+<div class="wrap nav">
+<a class="brand" href="#inicio">
+<span class="brand-mark" aria-hidden="true">Q</span>
+<span><b>Quali Studio</b><small>Pilates · Fisioterapia · Quiropraxia</small></span>
+</a>
+<nav class="links" aria-label="Menu">
+<a href="#servicos">Serviços</a>
+<a href="#aparelhos">Aparelhos</a>
+<a href="#estudio">O estúdio</a>
+<a href="#galeria">Galeria</a>
+<a href="#visite">Horários</a>
+</nav>
+<a class="btn btn-main" href="https://wa.me/5511980250258?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener">Agendar</a>
+</div>
+</header>
+<main id="inicio">
+<div class="wrap hero">
+<div class="hero-grid">
+<div>
+<span class="eyebrow">Jardim dos Camargos · Barueri</span>
+<h1>Movimento com <em>cuidado</em> de verdade.</h1>
+<p class="lead">Pilates, fisioterapia, quiropraxia, funcional e yoga no mesmo lugar, com atendimento próximo e acompanhamento de profissionais.</p>
+<div class="ctas">
+<a class="btn btn-main" href="https://wa.me/5511980250258?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener">Agendar aula experimental</a>
+<a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+</div>
+<div class="rating">
+<strong>5,0</strong>
+<span class="stars" aria-label="5 de 5 estrelas">★★★★★</span>
+<span>62 avaliações no Google</span>
+</div>
+</div>
+<div class="window" id="hero-slides" aria-roledescription="carrossel" aria-label="Fotos do estúdio">
+<span class="badge"><span class="stars" aria-hidden="true">★★★★★</span> 5,0 no Google</span>
+<img class="on" src="img/sala-pilates.jpg" alt="Sala de pilates com cadillac, recepção e poltronas" data-t="Sala de pilates" data-s="Aparelhos e recepção no 1º andar">
+<img src="img/consultorio.jpg" alt="Consultório com maca, mesa e janela ampla" data-t="Consultório" data-s="Fisioterapia e quiropraxia">
+<img src="img/quiropraxia.jpg" alt="Fisioterapeuta fazendo ajuste de quiropraxia em paciente na maca" data-t="Atendimento" data-s="Quiropraxia com profissional">
+<img src="img/recepcao.jpg" alt="Parede com o logo do Quali Studio na entrada" data-t="Entrada" data-s="R. da Prata, 942 · Barueri">
+<button class="arrow p" type="button" aria-label="Foto anterior">‹</button>
+<button class="arrow n" type="button" aria-label="Próxima foto">›</button>
+<div class="cap"><div><b id="cap-t">Sala de pilates</b><span id="cap-s">Aparelhos e recepção no 1º andar</span></div><div class="dots" id="dots"></div></div>
+</div>
+</div>
+</div>
+<div class="strip">
+<div class="wrap">
+<span>Pilates em aparelhos</span>
+<span>Fisioterapia</span>
+<span>Quiropraxia</span>
+<span>Funcional e Yoga</span>
+<span>Gympass e TotalPass</span>
+</div>
+</div>
+<section id="servicos">
+<div class="wrap">
+<div class="head">
+<span class="eyebrow">Serviços</span>
+<h2>Cuidados que se completam</h2>
+<p>Pilates, terapias e treinos no mesmo estúdio. Você começa por um e combina os outros conforme a orientação dos profissionais.</p>
+</div>
+<div class="services">
+<article class="svc">
+<div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="4.5" r="2"/><path d="M5 9l7 2 7-2M12 11v5l-4 5M12 16l4 5"/></svg></div>
+<h3>Pilates</h3>
+<p>Aulas em aparelhos para fortalecer o corpo, melhorar a postura, a flexibilidade e a consciência corporal.</p>
+<ul><li>Turmas reduzidas</li><li>Todos os níveis</li><li>Aula experimental</li></ul>
+</article>
+<article class="svc">
+<div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10z"/><path d="M8.5 12h2l1-2 1.5 4 1-2h1.5"/></svg></div>
+<h3>Fisioterapia</h3>
+<p>Avaliação e tratamento para dores, lesões e reabilitação, com plano de exercícios para o seu caso.</p>
+<ul><li>Avaliação inicial</li><li>Reabilitação</li><li>Dores e postura</li></ul>
+</article>
+<article class="svc">
+<div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v20"/><rect x="9" y="4" width="6" height="3" rx="1.5"/><rect x="9" y="10.5" width="6" height="3" rx="1.5"/><rect x="9" y="17" width="6" height="3" rx="1.5"/></svg></div>
+<h3>Quiropraxia</h3>
+<p>Ajustes na coluna e nas articulações para aliviar dores e devolver mobilidade ao dia a dia.</p>
+<ul><li>Coluna</li><li>Articulações</li><li>Mobilidade</li></ul>
+</article>
+</div>
+<div class="services extra">
+<article class="svc mini">
+<div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12"/></svg></div>
+<div><h3>Funcional</h3><p>Treinos para força, resistência e condicionamento, com movimentos do dia a dia.</p></div>
+</article>
+<article class="svc mini">
+<div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="4.5" r="2"/><path d="M12 7v6M6 10l6 3 6-3M8 20l4-7 4 7M5 20h14"/></svg></div>
+<div><h3>Yoga</h3><p>Aulas para respiração, equilíbrio e flexibilidade, num ritmo mais calmo.</p></div>
+</article>
+</div>
+<div class="apps"><span>Aceitamos</span><b>Gympass</b><b>TotalPass</b></div>
+</div>
+</section>
+<section id="aparelhos" class="equip-band">
+<div class="wrap">
+<div class="head">
+<span class="eyebrow">Aparelhos</span>
+<h2>O estúdio tem os quatro aparelhos clássicos do método</h2>
+</div>
+<div class="equip">
+<div class="eq"><span>Base do método</span><h3>Reformer</h3><p>Carrinho com molas para trabalhar força e alongamento em várias posições.</p></div>
+<div class="eq"><span>Suporte total</span><h3>Cadillac</h3><p>Estrutura com barras e molas, ótima para alongamento e reabilitação.</p></div>
+<div class="eq"><span>Equilíbrio</span><h3>Chair</h3><p>Cadeira com pedal que desafia estabilidade, pernas e abdômen.</p></div>
+<div class="eq"><span>Coluna</span><h3>Ladder Barrel</h3><p>Barril com escada para extensão e mobilidade da coluna.</p></div>
+</div>
+</div>
+</section>
+<section id="estudio">
+<div class="wrap about">
+<div class="head" style="margin-bottom:0">
+<span class="eyebrow">O estúdio</span>
+<h2>Um espaço claro e acolhedor no Jardim dos Camargos</h2>
+<p>O Quali Studio ocupa dois andares na Rua da Prata, com sala de pilates, consultório para fisioterapia e quiropraxia, e estrutura de chuveiro e banheiro para quem vem antes ou depois do trabalho.</p>
+<p>Há mais de cinco anos em Barueri, o estúdio mantém nota máxima no Google pela atenção dedicada a cada aluno e paciente.</p>
+</div>
+<div class="facts">
+<div class="fact"><b>5,0</b><span>nota média no Google</span></div>
+<div class="fact"><b>62</b><span>avaliações de alunos</span></div>
+<div class="fact"><b>+5 anos</b><span>atendendo em Barueri</span></div>
+<div class="fact"><b>2 andares</b><span>com chuveiro e banheiro</span></div>
+</div>
+</div>
+</section>
+<section id="galeria" style="padding-top:0">
+<div class="wrap">
+<div class="head">
+<span class="eyebrow">Galeria</span>
+<h2>Conheça o espaço antes de vir</h2>
+</div>
+<div class="gallery reveal">
+<button type="button" data-i="0"><img src="img/sala-pilates.jpg" alt="Sala de pilates com cadillac e recepção" loading="lazy"><span>Sala de pilates</span></button>
+<button type="button" data-i="1"><img src="img/consultorio.jpg" alt="Consultório de fisioterapia" loading="lazy"><span>Consultório</span></button>
+<button type="button" data-i="2"><img src="img/quiropraxia.jpg" alt="Atendimento de quiropraxia" loading="lazy"><span>Quiropraxia</span></button>
+<button type="button" data-i="3" style="grid-column:span 2"><img src="img/recepcao.jpg" alt="Entrada com o logo do estúdio" loading="lazy" style="object-position:50% 30%"><span>Entrada</span></button>
+</div>
+</div>
+</section>
+<div class="lightbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="Foto ampliada">
+<button class="x" type="button" aria-label="Fechar">×</button>
+<figure><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+</div>
+<section id="visite" style="padding-top:0">
+<div class="wrap">
+<div class="head">
+<span class="eyebrow">Horários e contato</span>
+<h2>Aberto cedo, para caber na sua rotina</h2>
+</div>
+<div class="visit">
+<div class="hours">
+<div class="hours-head">
+<h3>Funcionamento</h3>
+<span class="status" id="status">Confira o horário</span>
+</div>
+<div id="days"></div>
+<div class="scale"><span></span><div><span>7h</span><span>12h</span><span>17h</span><span>21h</span></div><span></span></div>
+</div>
+<div class="contact">
+<div class="row"><small>Telefone e WhatsApp</small><span class="phone">(11) 98025-2058</span></div>
+<div class="row"><small>Instagram</small><a href="https://www.instagram.com/qualistudiopilates/" target="_blank" rel="noopener"><span>@qualistudiopilates</span></a></div>
+<div class="row"><small>Endereço</small><span>R. da Prata, 942 – 1º e 2º andar<br>Jardim dos Camargos, Barueri – SP<br>CEP 06410-000</span></div>
+<div class="btns">
+<a class="btn btn-light" href="https://wa.me/5511980250258" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+<a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=Quali+Studio+Pilates+R.+da+Prata+942+Barueri" target="_blank" rel="noopener">Como chegar</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section style="padding-top:0">
+<div class="wrap">
+<div class="final">
+<h2>Agende sua aula experimental de pilates</h2>
+<a class="btn btn-main" href="https://wa.me/5511980250258?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener">Falar com o estúdio</a>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<span>© 2026 Quali Studio Pilates, Fisioterapia e Quiropraxia · Barueri – SP</span>
+<span>R. da Prata, 942 · (11) 98025-2058 · <a href="https://www.instagram.com/qualistudiopilates/" target="_blank" rel="noopener">@qualistudiopilates</a></span>
+</div>
+</footer>
+<a class="wa-float" href="https://wa.me/5511980250258" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.6 11.6 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>
+</a>
+<script>
+(function(){
+// [nome, abre, fecha] em horas; null = fechado. Índice 0 = domingo
+var H=[["Domingo",null,null],["Segunda",7,21],["Terça",7,21],["Quarta",8,21],["Quinta",7,21],["Sexta",7,18],["Sábado",8,12]];
+var order=[1,2,3,4,5,6,0], start=7, end=21;
+var now=new Date(), today=now.getDay(), hr=now.getHours()+now.getMinutes()/60;
+var box=document.getElementById("days");
+function f(h){return String(h).padStart(2,"0")+":00"}
+order.forEach(function(i){
+var d=H[i], row=document.createElement("div");
+row.className="day"+(i===today?" today":"");
+var bar=d[1]==null?"":'<i style="left:'+((d[1]-start)/(end-start)*100)+'%;width:'+((d[2]-d[1])/(end-start)*100)+'%"></i>';
+row.innerHTML='<span>'+d[0]+(i===today?" · hoje":"")+'</span><div class="track">'+bar+'</div><span class="time">'+(d[1]==null?"Fechado":f(d[1])+"–"+f(d[2]))+'</span>';
+box.appendChild(row);
+});
+var t=H[today], st=document.getElementById("status");
+if(t[1]!=null && hr>=t[1] && hr<t[2]){st.textContent="Aberto agora · fecha às "+t[2]+"h";}
+else{st.textContent="Fechado agora";st.className="status closed";}
+// carrossel
+var slides=[].slice.call(document.querySelectorAll("#hero-slides img")), cur=0, timer;
+var dots=document.getElementById("dots"), ct=document.getElementById("cap-t"), cs=document.getElementById("cap-s");
+var still=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+slides.forEach(function(s,i){var b=document.createElement("button");b.type="button";b.setAttribute("aria-label","Foto "+(i+1));b.onclick=function(){go(i)};dots.appendChild(b)});
+function go(i){
+cur=(i+slides.length)%slides.length;
+slides.forEach(function(s,k){s.classList.toggle("on",k===cur)});
+[].forEach.call(dots.children,function(d,k){d.classList.remove("on");void d.offsetWidth;d.classList.toggle("on",k===cur&&!still)});
+ct.textContent=slides[cur].dataset.t; cs.textContent=slides[cur].dataset.s;
+clearTimeout(timer); if(!still) timer=setTimeout(function(){go(cur+1)},5000);
+}
+document.querySelector("#hero-slides .p").onclick=function(){go(cur-1)};
+document.querySelector("#hero-slides .n").onclick=function(){go(cur+1)};
+go(0);
+// lightbox
+var lb=document.getElementById("lb"), li=document.getElementById("lb-img"), lc=document.getElementById("lb-cap");
+document.querySelectorAll(".gallery button").forEach(function(b){b.onclick=function(){
+var im=b.querySelector("img"); li.src=im.src; li.alt=im.alt; lc.textContent=b.querySelector("span").textContent; lb.hidden=false; lb.querySelector(".x").focus();
+}});
+function close(){lb.hidden=true}
+lb.onclick=function(e){if(e.target===lb||e.target.classList.contains("x"))close()};
+document.addEventListener("keydown",function(e){if(e.key==="Escape")close()});
+// entrada suave das seções (começa visível)
+document.documentElement.classList.add("js");
+if("IntersectionObserver" in window && !still){
+var els=document.querySelectorAll(".svc,.eq,.fact,.gallery,.hours,.contact");
+els.forEach(function(el){el.classList.add("reveal")});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){
+if(!x.isIntersecting && x.boundingClientRect.top>0){x.target.classList.add("pre")}
+else{x.target.classList.remove("pre")}
+})},{threshold:.15});
+els.forEach(function(el){io.observe(el)});
+}
+})();
+</script>
+</body></html>
